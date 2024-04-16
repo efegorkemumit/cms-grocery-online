@@ -724,6 +724,11 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
       'manyToOne',
       'plugin::users-permissions.role'
     >;
+    user_carts: Attribute.Relation<
+      'plugin::users-permissions.user',
+      'oneToMany',
+      'api::user-cart.user-cart'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
@@ -848,6 +853,11 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'manyToMany',
       'api::category.category'
     >;
+    user_cart: Attribute.Relation<
+      'api::product.product',
+      'manyToOne',
+      'api::user-cart.user-cart'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -896,6 +906,48 @@ export interface ApiSliderSlider extends Schema.CollectionType {
   };
 }
 
+export interface ApiUserCartUserCart extends Schema.CollectionType {
+  collectionName: 'user_carts';
+  info: {
+    singularName: 'user-cart';
+    pluralName: 'user-carts';
+    displayName: 'user-cart';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    quantity: Attribute.Integer;
+    amount: Attribute.Decimal;
+    products: Attribute.Relation<
+      'api::user-cart.user-cart',
+      'oneToMany',
+      'api::product.product'
+    >;
+    users_permissions_user: Attribute.Relation<
+      'api::user-cart.user-cart',
+      'manyToOne',
+      'plugin::users-permissions.user'
+    >;
+    userId: Attribute.Integer;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::user-cart.user-cart',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::user-cart.user-cart',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -917,6 +969,7 @@ declare module '@strapi/types' {
       'api::category.category': ApiCategoryCategory;
       'api::product.product': ApiProductProduct;
       'api::slider.slider': ApiSliderSlider;
+      'api::user-cart.user-cart': ApiUserCartUserCart;
     }
   }
 }
