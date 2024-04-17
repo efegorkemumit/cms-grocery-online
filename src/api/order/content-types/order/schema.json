@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "totalOrderAmount": {
+      "type": "decimal"
+    },
+    "userId": {
+      "type": "integer"
+    },
+    "paymentText": {
+      "type": "string"
+    },
+    "OrderItemList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "order-item-list.order-item-list"
+    }
+  }
+}
