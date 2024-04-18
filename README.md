@@ -1,57 +1,67 @@
-# 🚀 Getting started with Strapi
+<a href="" rel="nofollow">
+<img src="https://github.com/efegorkemumit/online-grocery-nextjs14/blob/master/public/market.jpg"
+ style="max-width: 100%;">
+</a>
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+<div></div>
 
-### `develop`
+<a href="https://www.instagram.com/efegorkemumit/" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/instagram.png" style="max-width: 10%;">
+</a>
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+<a href="https://efegorkemumit.com/" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/website.png" style="max-width: 10%;">
+</a>
 
-```
-npm run develop
-# or
-yarn develop
-```
+<a href="https://github.com/efegorkemumit" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/github.png" style="max-width: 10%;">
+</a>
 
-### `start`
+<a href="https://www.linkedin.com/in/efe-g%C3%B6rkem-%C3%BCmit-a084009b/" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/linkedin.png" style="max-width: 10%;">
+</a>
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+<a href="https://www.youtube.com/@EfeGorkemUmit?sub_confirmation=1" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/youtube.png" style="max-width: 10%;">
+</a>
 
-```
-npm run start
-# or
-yarn start
-```
 
-### `build`
+<div style="height:25px">
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+## LINKS
 
-```
-npm run build
-# or
-yarn build
-```
 
-## ⚙️ Deployment
+- Video Tutorial : Yakında
+- Store Github: https://github.com/efegorkemumit/online-grocery-nextjs14
+- Cms Github: https://github.com/efegorkemumit/cms-grocery-online
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
 
-## 📚 Learn more
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+## Online Bakkal ve Market Sitesi |  E-Ticaret Sitesi | Full Stack | Strapi, NextJS, TailwindCSS, Shdnc
 
-## ✨ Community
+## Video
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+**Timestamps**
+- 00:00 Tanıtım
+- 05:28 Kurulumlar
+- 14:35 Header
+- 25:36 Strapi Kurulum
+- 40:13 Category Api den Veri Çekme
+- 01:00:29 Slider
+- 01:15:11 Anasayfa Category
+- 01:25:20 Product Model
+- 01:28:13 Product List
+- 01:48:22 Product Add to Cart Modal 
+- 02:16:06 Footer 
+- 02:27:51 Category Detail
+- 02:40:49 Login Register Page UI
+- 02:56:29 Login Register Page Action
+- 03:31:11 Sepet İşlemleri
+- 04:25:02 Checkout UI and collection
+- 04:49:48 Checkout Submit
+- 05:04:10 My Order ve Bitiş
 
----
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+
